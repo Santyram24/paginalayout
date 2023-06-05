@@ -29,7 +29,7 @@
 .fondo1 {
   border: 1px bold black;
   width: 100%;
-  height: 600px;
+  height: 800px;
 }
 
 .biografia {
@@ -89,16 +89,25 @@
 .cajas{
   width: 100%;
   height: 200px;
-  margin-left: 25%;
+ 
 }
 
+.cajas .cp {
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+  
+  float: left;
+  margin-left: 30%;
+  border-radius: 10px;
+}
 .cajas .c1 {
   background-color: grey;
   width: 100px;
   height: 100px;
   
   float: left;
-  margin-left: 7%;
+  margin-left: 8%;
   border-radius: 10px;
 }
 
